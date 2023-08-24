@@ -1,11 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>catEnergy</title>
+    <link rel="stylesheet" href="css/header.css">
 </head>
 <body>
-    
+
+  <header>
+
+    <nav class="nav">
+
+      <a href="index.html" class="logo-main">
+        <picture>
+          <source srcset="/img/logo/logo-mobile.svg" media="(max-width: 767px)" width="250px">
+          <source srcset="/img/logo/logo-tablet.svg" media="(max-width: 1023px)"
+          width="200px">
+          <img src="/img/logo/logo-desktop.svg" alt="логотип энергичного кота" width="200px">
+        </picture>
+      </a>
+
+      <ul class="main-nav">
+        <li class="main"><a href="index.html">Главная</a></li>
+        <li><a href="catalog.html">Каталог продукции</a></li>
+        <li><a href="programm.html">Подбор программы</a></li>
+      </ul>
+
+      <div class="adaptive-menu">
+
+        <input id="menu-toggle" type="checkbox" />
+        <label class="menu-btn" for="menu-toggle">
+          <span></span>
+        </label>
+
+        <ul class="menu-box">
+          <li class="menu-item"><a href="index.html">Главная</a></li>
+          <li class="menu-item"><a href="catalog.html">Каталог продукции</a></li>
+          <li class="menu-item"><a href="programm.html">Подбор программы</a></li>
+        </ul>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+  <main>
+
+  </main>
+
+  <footer>
+
+  </footer>
+
 </body>
 </html>
